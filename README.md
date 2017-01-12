@@ -23,7 +23,7 @@ List of candidate topics, in order of perceived viability *prior to having writt
 1. Machine learning  
   a. Very fuzzy, but mandatory per Jeremy.
 1. Restart our "Commonly used Charts" survey  
-  a. If this is what I think it is, my view is that the SGPLOT wiki finished this off.
+  a. If this is what I think it is, my view is that the [SGPLOT wiki](https://github.com/RhoInc/sas-sgplot/wiki) finished this off.
 1. SAS version of steam graph (assuming you mean “stream” graph)  
   a. Looks kind of busy.
 1. SAS version of something else from http://www.datavizcatalogue.com/  
@@ -39,4 +39,4 @@ List of candidate topics, in order of perceived viability *prior to having writt
     1. http://blogs.sas.com/content/graphicallyspeaking/2016/10/27/outside-the-boxcircle-link-graph/  
     1. http://blogs.sas.com/content/graphicallyspeaking/2016/11/01/outside-box-directed-circle-link-graphs/
 1. SAS version of heat maps  
-  a. SAS has a HEATMAP statement in SGPLOT
+  a. SAS has a HEATMAP statement in SGPLOT: [SAS Gallery](http://support.sas.com/kb/31/489.html) or [viridis](https://github.com/rhoinc/sas-viridis/wiki#color-response-data)
