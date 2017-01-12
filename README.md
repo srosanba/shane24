@@ -11,10 +11,10 @@ List of candidate topics, in order of perceived viability *prior to having writt
 1. Revisit hybrid approach for stacked bar charts  
   a. Offset bar charts, line charts, etc.
 1. SAS implementation of "Safety Explorer - Snapshots"  
-  a. This is primarily a tool to help validate the output from CF. 
+  a. This is primarily a tool to help validate the output from CF.  
   b. This is NOT a quick-start for CSR displays.
 1. Examination/Visualization of Data Domains used at Rho  
-  a. If this is what I think it is, we want to generate sets of plots for various data domains: AE plots, Lab plots, PK plots, etc.
+  a. If this is what I think it is, we want to generate sets of plots for various data domains: AE plots, Lab plots, PK plots, etc.  
   b. Exactly what form this takes is unclear: a concepts paper with pretty picture, sets of code for each data domain, other?
 1. SAS version of network diagrams  
   a. Investigate SAS VA implementation.
