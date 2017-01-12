@@ -1,4 +1,5 @@
 Create a “top X to explore” list out of the below:
+
 1. Revisit hybrid approach for stacked bar charts  
   a. Offset bar charts, line charts, etc.
 1. SAS implementation of "Safety Explorer - Snapshots"  
@@ -19,15 +20,15 @@ Create a “top X to explore” list out of the below:
   a. Looks kind of busy.
 1. SAS version of something else from http://www.datavizcatalogue.com/  
   a. I managed to talk myself out of most of what I saw as  
-    i. easily doable in SGPLOT, or 
-    ii. already done by someone else, or 
-    iii. not applicable to clinical trials, or 
-    iv. not a good graphic
+    1. easily doable in SGPLOT, or  
+    1. already done by someone else, or  
+    1. not applicable to clinical trials, or  
+    1. not a good graphic
 1. SAS version of Volcano plots  
   a. Just a scatter plot. What’s the big deal?
 1. SAS version of chord diagram  
   a. Cool idea, but Sanjay Matange recently published on this.  
-    i. http://blogs.sas.com/content/graphicallyspeaking/2016/10/27/outside-the-boxcircle-link-graph/
-    ii. http://blogs.sas.com/content/graphicallyspeaking/2016/11/01/outside-box-directed-circle-link-graphs/
+    1. http://blogs.sas.com/content/graphicallyspeaking/2016/10/27/outside-the-boxcircle-link-graph/  
+    1. http://blogs.sas.com/content/graphicallyspeaking/2016/11/01/outside-box-directed-circle-link-graphs/
 1. SAS version of heat maps  
   a. SAS has a HEATMAP statement in SGPLOT
