@@ -1,4 +1,12 @@
-Create a “top X to explore” list out of the below:
+Guidance per JW:
+
+Consider this as X Rho24 days and do the following: 
+
+1. Write X short (1-2 paragraph) proposals to think things through a bit before jumping in [I am happy to review these if you like].
+1. Spend about a day on each project. Work the problem. Do a little pilot. See if there is a there there.
+1. Write a short (1-2 paragraph) summary of each day. Link to relevant materials created [I definitely want to see these].
+
+List of candidate topics, approximately in order of 
 
 1. Revisit hybrid approach for stacked bar charts  
   a. Offset bar charts, line charts, etc.
