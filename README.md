@@ -37,11 +37,7 @@ List of candidate topics, in order of perceived viability *prior to having writt
 1. SAS version of steam graph (assuming you mean “stream” graph)  
   a. Looks kind of busy.
 1. SAS version of something else from http://www.datavizcatalogue.com/  
-  a. I managed to talk myself out of most of what I saw as  
-    1. easily doable in SGPLOT, or  
-    1. already done by someone else, or  
-    1. not applicable to clinical trials, or  
-    1. not a good graphic
+  a. I managed to talk myself out of most of what I saw as easily doable in SGPLOT, or already done by someone else, or not applicable to clinical trials, or not a good graphic  
   b. JW says that actually: Maybe start with a list of the items on that catalogue web page and document how they can be created in sas. That would actually be a really useful paper/resource (maybe a 1 page printable cheatsheet?). “A guide to advanced charting in SAS version X”
 1. SAS version of Volcano plots  
   a. Just a scatter plot. What’s the big deal?
