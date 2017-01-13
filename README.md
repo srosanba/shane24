@@ -21,7 +21,8 @@ List of candidate topics, in order of perceived viability *prior to having writt
   a. LaTeX-based. 
 1. Examination/Visualization of Data Domains used at Rho  
   a. If this is what I think it is, we want to generate sets of plots for various data domains: AE plots, Lab plots, PK plots, etc.  
-  b. Exactly what form this takes is unclear: a concepts paper with pretty picture, sets of code for each data domain, other?
+  b. Exactly what form this takes is unclear: a concepts paper with pretty picture, sets of code for each data domain, other?  
+  c. JW says that actually: there is a data set, with lots of metadata from red sector studies (including column names and file names i think) to play with. from that, i can imagine visualizations of the meta data (this chart shows the most common naming convention for race) but i don’t think we’d want many charts of the actual data - this isn’t a meta analysis. No “this is how race was distributed across 12 studies”. (actually this might be a metadata meta analysis - a meta meta analysis)
 1. SAS version of network diagrams  
   a. Investigate SAS VA implementation.
 1. Evaluation of our graphics accessibility per NIH guidelines  
@@ -31,7 +32,8 @@ List of candidate topics, in order of perceived viability *prior to having writt
 1. A SAS equivalent to diagramR.
   a. Likely very difficult to pull off. 
 1. Restart our "Commonly used Charts" survey  
-  a. If this is what I think it is, my view is that the [SGPLOT wiki](https://github.com/RhoInc/sas-sgplot/wiki) finished this off.
+  a. If this is what I think it is, my view is that the [SGPLOT wiki](https://github.com/RhoInc/sas-sgplot/wiki) finished this off.  
+  b. JW says that actually: 10 is more like 5 as written - i’m thinking the ‘commonly used chart survey’ will list dozens or even hundreds of items not just a handful. preferably broken in to categories. preferably with some kind of usage metric - ubiquitous, common, rare, etc.
 1. SAS version of steam graph (assuming you mean “stream” graph)  
   a. Looks kind of busy.
 1. SAS version of something else from http://www.datavizcatalogue.com/  
@@ -39,7 +41,8 @@ List of candidate topics, in order of perceived viability *prior to having writt
     1. easily doable in SGPLOT, or  
     1. already done by someone else, or  
     1. not applicable to clinical trials, or  
-    1. not a good graphic
+    1. not a good graphic  
+  b. JW says that actually: Maybe start with a list of the items on that catalogue web page and document how they can be created in sas. That would actually be a really useful paper/resource (maybe a 1 page printable cheatsheet?). “A guide to advanced charting in SAS version X”
 1. SAS version of Volcano plots  
   a. Just a scatter plot. What’s the big deal?
 1. SAS version of chord diagram  
