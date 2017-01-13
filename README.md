@@ -10,9 +10,15 @@ List of candidate topics, in order of perceived viability *prior to having writt
 
 1. Revisit hybrid approach for stacked bar charts  
   a. Offset bar charts, line charts, etc.
+1. Expand functionality in Mayo Clinic macro.
+  a. Small sample size results in exact tests.  
+  b. One of logistic or survivial is not in the macro.  
+  c. Would involve working with Kaitie Lawson.
 1. SAS implementation of "Safety Explorer - Snapshots"  
   a. This is primarily a tool to help validate the output from CF.  
   b. This is NOT a quick-start for CSR displays.
+1. Learn to use StatRep, the SAS-promoted package for producing papers that contain text, code, and results all in one file.
+  a. LaTeX-based. 
 1. Examination/Visualization of Data Domains used at Rho  
   a. If this is what I think it is, we want to generate sets of plots for various data domains: AE plots, Lab plots, PK plots, etc.  
   b. Exactly what form this takes is unclear: a concepts paper with pretty picture, sets of code for each data domain, other?
@@ -22,6 +28,8 @@ List of candidate topics, in order of perceived viability *prior to having writt
   a. Colorblind, visually impaired, etc.
 1. Machine learning  
   a. Very fuzzy, but mandatory per Jeremy.
+1. A SAS equivalent to diagramR.
+  a. Likely very difficult to pull off. 
 1. Restart our "Commonly used Charts" survey  
   a. If this is what I think it is, my view is that the [SGPLOT wiki](https://github.com/RhoInc/sas-sgplot/wiki) finished this off.
 1. SAS version of steam graph (assuming you mean “stream” graph)  
