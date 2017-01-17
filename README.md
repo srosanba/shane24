@@ -10,7 +10,7 @@ List of candidate topics, in order of perceived viability *prior to having writt
 
 1. Revisit hybrid approach for stacked bar charts  
   a. Offset bar charts, line charts, etc.
-1. Expand functionality in Mayo Clinic macro.
+1. Expand functionality in Mayo Clinic macro.  
   a. Small sample size results in exact tests.  
   b. One of logistic or survivial is not in the macro.  
   c. Would involve working with Kaitie Lawson.
