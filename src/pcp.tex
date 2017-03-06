@@ -1,0 +1,93 @@
+\documentclass[9pt]{article}
+\usepackage{statrep}
+\def\SRrootdir{H:/GraphicsGroup/StatRep/explore/pcp}
+\usepackage[left=1.0in,right=1.0in,top=0.5in,bottom=1.0in]{geometry}
+\usepackage[none]{hyphenat}
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\setlength{\parindent}{0pt}
+  
+\title{Parallel Coordinates Plots Made Easy}
+\author{Shane Rosanbalm, Rho, Inc.}
+\date{\vspace{-5ex}}
+
+\begin{document}
+
+\maketitle
+
+\section*{Abstract}
+
+A parallel coordinates plot is useful for visualizing multivariate data. Unfortunately, there isn't a PARALLEL statement in SGPLOT. In this paper we present a macro called \texttt{\%parallel}. Using a minimum of parameters \texttt{(data=, var=, group=)} the macro will produce a parallel coordinates plot via SGPLOT. 
+
+\section*{Background}
+
+Producing a parallel coordinates plot in SAS is not straightforward. There definitely isn't a PARALLEL statement in SGPLOT. The best approach I could find online was from SAS author Prashant Hebbar in his paper from SGF 2012 (Off the Beaten Path: Creating Unusual Graphs with GTL). The outlined process certainly works, but it's written for readability and not for flexibility or scalability. I decided to experiment to see if was possible to generate a parallel coordinates plot using more flexible and scalable code. The result of this experiment is a macro called \texttt{\%parallel} which is capable of producing a parallel coordinates plot with a minimum of parameters.
+
+\section*{Macro Basics}
+
+A basic call to \texttt{\%parallel} looks like this: \\
+
+\begin{Sascode}[program]
+options sasautos=("H:/GitHub/srosanba/sas-parallel-coordinates-plot/src" sasautos);
+ods graphics / height=3in;
+\end{Sascode}
+
+\begin{Sascode}[store=basics]
+%parallel
+   (data=sashelp.iris
+   ,var=sepallength sepalwidth petallength petalwidth
+   ,group=species
+   );
+\end{Sascode}
+
+\Graphic[store=basics,
+   objects=SGPlot,
+   caption={Parallel Coordinates Plot for Fisher's Iris Data}
+   ]{basics}
+
+The required parameters are \texttt{data=} and \texttt{var=}.
+
+\begin{tabular}{|l|l|}
+
+\hline
+Parameter & Description \\ \hline
+\texttt{data=} & \begin{tabular}{@{}l@{}} Input dataset. \\ Required. \end{tabular} \\ \hline
+\texttt{var=} & \begin{tabular}{@{}l@{}} Space-separated list of variables to plot. \\ Required. \end{tabular} \\ \hline
+
+\end{tabular} \\ \\
+
+The optional parameters that are likely to be of most interest are \texttt{group=} and \texttt{axistype=}.
+
+\begin{tabular}{|l|l|}
+
+\hline
+Parameter & Description \\ \hline
+\texttt{group=} & \begin{tabular}{@{}l@{}} Grouping variable. \\ Optional. \end{tabular} \\ \hline
+\texttt{axistype=} & \begin{tabular}{@{}l@{}} Type of yaxis to create. \\ Optional. \\ Valid values: \texttt{percentiles | datavalues}. \end{tabular} \\ \hline
+
+\end{tabular} \\ \\
+
+Using \texttt{axistype=datavalues} changes the yaxis of the previous output as follows:
+
+\begin{Sascode}[program]
+ods graphics / height=3in;
+\end{Sascode}
+
+\begin{Sascode}[store=datavalues]
+%parallel
+   (data=sashelp.iris
+   ,var=sepallength sepalwidth petallength petalwidth
+   ,group=species
+   ,axistype=datavalues
+   );
+\end{Sascode}
+
+\Graphic[store=datavalues,
+   objects=SGPlot,
+   caption={Parallel Coordinates Plot Using Data Values}
+   ]{datavalues}
+
+
+
+
+\end{document}
