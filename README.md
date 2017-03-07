@@ -50,4 +50,4 @@ List of candidate topics, in order of perceived viability *prior to having writt
 
 ## Late Additions
 
-1. Learn atom editor.
+1. Learn atom editor. Or delegate to JW?
