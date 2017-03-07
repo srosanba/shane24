@@ -1,6 +1,6 @@
 Guidance per JW:
 
-Consider this as X Rho24 days and do the following: 
+Consider this as X Rho24 days and do the following:
 
 1. Write X short (1-2 paragraph) proposals to think things through a bit before jumping in [I am happy to review these if you like].
 1. Spend about a day on each project. Work the problem. Do a little pilot. See if there is a there there.
@@ -18,7 +18,7 @@ List of candidate topics, in order of perceived viability *prior to having writt
   a. This is primarily a tool to help validate the output from CF.  
   b. This is NOT a quick-start for CSR displays.
 1. Learn to use StatRep, the SAS-promoted package for producing papers that contain text, code, and results all in one file.
-  a. LaTeX-based. 
+  a. LaTeX-based.
 1. Examination/Visualization of Data Domains used at Rho  
   a. If this is what I think it is, we want to generate sets of plots for various data domains: AE plots, Lab plots, PK plots, etc.  
   b. Exactly what form this takes is unclear: a concepts paper with pretty picture, sets of code for each data domain, other?  
@@ -30,7 +30,7 @@ List of candidate topics, in order of perceived viability *prior to having writt
 1. Machine learning  
   a. Very fuzzy, but mandatory per Jeremy.
 1. A SAS equivalent to diagramR.
-  a. Likely very difficult to pull off. 
+  a. Likely very difficult to pull off.
 1. Restart our "Commonly used Charts" survey  
   a. If this is what I think it is, my view is that the [SGPLOT wiki](https://github.com/RhoInc/sas-sgplot/wiki) finished this off.  
   b. JW says that actually: 10 is more like 5 as written - i’m thinking the ‘commonly used chart survey’ will list dozens or even hundreds of items not just a handful. preferably broken in to categories. preferably with some kind of usage metric - ubiquitous, common, rare, etc.
@@ -47,3 +47,7 @@ List of candidate topics, in order of perceived viability *prior to having writt
     1. http://blogs.sas.com/content/graphicallyspeaking/2016/11/01/outside-box-directed-circle-link-graphs/
 1. SAS version of heat maps  
   a. SAS has a HEATMAP statement in SGPLOT: [SAS Gallery](http://support.sas.com/kb/31/489.html) or [viridis](https://github.com/rhoinc/sas-viridis/wiki#color-response-data)
+
+## Late Additions
+
+1. Learn atom editor.
